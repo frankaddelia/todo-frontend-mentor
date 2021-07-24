@@ -25,22 +25,73 @@
 
 <body>
 
-	Todo
+	<header>
+		<h1>
+			<span>Todo</span>
+			<button class="btn"><img src="images/icon-moon.svg" alt="Toggle dark mode"></button>
+		</h1>
+	</header>
 
-	<!-- Add dynamic number --> items left
+	<main class="container">
 
-	All
-	Active
-	Completed
+		<div class="add-task">
+			<input type="text" id="add-task" name="add-task" placeholder="Create a new todo...">
+		</div>
 
-	Clear Completed
+		<div class="list-container">
+			<div class="list-group">
+				<ul class="list">
+					<li class="list-item">Complete online Javascript course</li>
+					<li class="list-item">Jog around the park 3 times</li>
+					<li class="list-item">10 minutes meditation</li>
+					<li class="list-item">Read for one hour</li>
+					<li class="list-item">Pick up groceries</li>
+					<li class="list-item">Complete Todo app on Frontend Mentor</li>
+				</ul>
+			</div>
+	
+			<div class="list-footer-mobile">
+				<div>
+					<span>
+						<!-- Add dynamic number --> items left
+					</span>
+			
+					<span>
+						Clear Completed
+					</span>
+				</div>
+				<div class="task-filter">
+					<button class="btn">All</button>
+					<button class="btn">Active</button>
+					<button class="btn">Completed</button>
+				</div>
+			</div>
 
-	Drag and drop to reorder list
+			<div class="list-footer-desktop">
+				<span>
+					<!-- Add dynamic number --> items left
+				</span>
 
-	<div class="attribution">
+				<button class="btn">All</button>
+				<button class="btn">Active</button>
+				<button class="btn">Completed</button>
+
+				<span>
+					Clear Completed
+				</span>
+			</div>
+		</div>
+
+		<div class="drag-msg">
+			Drag and drop to reorder list
+		</div>
+	</main>
+
+
+	<footer class="attribution">
 		Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-		Coded by <a href="#">Your Name Here</a>.
-	</div>
+		Coded by <a href="#">WTFranklin</a>.
+	</footer>
 </body>
 
 </html>
