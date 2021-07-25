@@ -1,0 +1,39 @@
+
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.container {
+    margin: 0 auto;
+    width: 375px;
+
+    h1 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 5rem;
+    }
+}
+
+.list-footer-desktop {
+    display: none;
+}
+
+.list-footer-mobile {
+    display: block;
+}
+
+@media screen and (min-width: 800px) {
+    .list-footer-desktop {
+        display: block;
+    }
+
+    .list-footer-mobile {
+        display: none;
+    }
+}

@@ -1,0 +1,38 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+.container {
+  margin: 0 auto;
+  width: 375px;
+}
+.container h1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.list-footer-desktop {
+  display: none;
+}
+
+.list-footer-mobile {
+  display: block;
+}
+
+@media screen and (min-width: 800px) {
+  .list-footer-desktop {
+    display: block;
+  }
+
+  .list-footer-mobile {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */
