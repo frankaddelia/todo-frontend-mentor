@@ -23,14 +23,20 @@ body {
   width: 1.25rem;
 }
 
+.color-mode-toggle {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
 .container {
   box-sizing: border-box;
   margin: 0 auto;
   padding: 0 30px;
   width: 23.4375rem;
-  border: 1px solid red;
 }
 .container h1 {
+  color: white;
   display: flex;
   justify-content: space-between;
   margin-top: 5rem;
