@@ -1,5 +1,5 @@
 body {
-  background: url("../../images/bg-mobile-light.jpg") no-repeat top center;
+  background: #fafafa url("../../images/bg-mobile-light.jpg") no-repeat top center;
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.125rem;
 }
@@ -84,6 +84,16 @@ body {
 }
 .list-group li input {
   border: none;
+  color: #9394a5;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.list-group-rounded {
+  border-radius: 0.3125rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
 }
 
 @media screen and (min-width: 800px) {

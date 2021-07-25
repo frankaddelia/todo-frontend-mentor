@@ -25,7 +25,7 @@ $very-darker-grayish-blue: hsl(233, 14%, 35%);
 $very-dark-grayish-blue: hsl(237, 14%, 26%);
 
 body {
-    background: url('../../images/bg-mobile-light.jpg') no-repeat top center;
+    background: $very-light-gray url('../../images/bg-mobile-light.jpg') no-repeat top center;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.125rem;
 }
@@ -112,7 +112,17 @@ body {
 
     input {
         border: none;
+        color: $dark-grayish-blue;
+        font-family: 'Josefin Sans', sans-serif;
     }
+}
+
+.list-group-rounded {
+    border-radius: 0.3125rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
 }
 
 // @media screen and (min-width: 375px) {
