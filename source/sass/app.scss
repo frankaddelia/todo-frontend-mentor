@@ -24,6 +24,7 @@ $very-darker-grayish-blue: hsl(233, 14%, 35%);
 $very-dark-grayish-blue: hsl(237, 14%, 26%);
 
 body {
+    background: url('../../images/bg-mobile-light.jpg') no-repeat top center;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.125rem;
 }
@@ -94,6 +95,12 @@ body {
     padding: 0;
     width: 19.6875rem;
 }
+
+// @media screen and (min-width: 375px) {
+//     body {
+//         background: url('../../images/bg-desktop-light.jpg') no-repeat top center;
+//     }
+// }
 
 @media screen and (min-width: 800px) {
     .list-footer-desktop {

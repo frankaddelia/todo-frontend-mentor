@@ -1,4 +1,5 @@
 body {
+  background: url("../../images/bg-mobile-light.jpg") no-repeat top center;
   font-family: "Josefin Sans", sans-serif;
   font-size: 1.125rem;
 }
