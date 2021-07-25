@@ -1,6 +1,7 @@
 // Colors
 
 // Primary
+$black: hsl(0, 0%, 0%);
 $bright-blue: hsl(220, 98%, 61%);
 $check-background: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%);
 
@@ -18,7 +19,7 @@ $very-dark-blue: hsl(235, 21%, 11%);
 $very-dark-desaturated-blue: hsl(235, 24%, 19%);
 $light-grayish-blue: hsl(234, 39%, 85%);
 $light-grayish-blue-hover: hsl(236, 33%, 92%);
-$dark-grayish-blue: hsl(234, 11%, 52%);
+$darker-grayish-blue: hsl(234, 11%, 52%);
 $very-darker-grayish-blue: hsl(233, 14%, 35%);
 $very-dark-grayish-blue: hsl(237, 14%, 26%);
 
@@ -36,9 +37,21 @@ body {
     color: hsl(228, 45%, 44%);
 }
 
+.circle {
+    background-color: transparent;
+    border: 1px solid $black;
+    border-radius: 50%;
+    display: inline-block;
+    height: 1.25rem;
+    width: 1.25rem;
+}
+
 .container {
+    box-sizing: border-box;
     margin: 0 auto;
+    padding: 0 30px;
     width: 23.4375rem;
+    border: 1px solid red;
 
     h1 {
         display: flex;
@@ -48,12 +61,37 @@ body {
     }
 }
 
+.list-container {
+    margin: 0 auto;
+}
+
 .list-footer-desktop {
     display: none;
 }
 
 .list-footer-mobile {
     display: block;
+}
+
+.list-group {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0 !important;
+    width: 19.6875rem;
+}
+
+.list-group li {
+    align-items: center;
+    border-bottom: 1px solid $dark-grayish-blue;
+    display: flex;
+    font-size: 0.9rem;
+    height: 50px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 19.6875rem;
 }
 
 @media screen and (min-width: 800px) {
