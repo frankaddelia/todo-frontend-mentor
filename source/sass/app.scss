@@ -62,11 +62,17 @@ body {
     width: 23.4375rem;
 
     h1 {
+        align-items: center;
+        align-content: center;
         color: $white;
         display: flex;
         justify-content: space-between;
         margin-top: 5rem;
         text-transform: uppercase;
+
+        span {
+            letter-spacing: 0.8rem;
+        }
     }
 }
 
