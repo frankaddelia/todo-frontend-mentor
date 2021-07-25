@@ -2,9 +2,9 @@
 
 // Primary
 $black: hsl(0, 0%, 0%);
-$white: hsl(255, 100%, 100%);
 $bright-blue: hsl(220, 98%, 61%);
 $check-background: linear-gradient hsl(192, 100%, 67%) to hsl(280, 87%, 65%);
+$white: hsl(255, 100%, 100%);
 
 // Neutral
 
@@ -93,7 +93,7 @@ body {
 
 .list-group li {
     align-items: center;
-    border-bottom: 1px solid $dark-grayish-blue;
+    border-bottom: 2px solid $very-light-grayish-blue;
     display: flex;
     font-size: 0.9rem;
     height: 50px;

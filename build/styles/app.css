@@ -66,7 +66,7 @@ body {
 
 .list-group li {
   align-items: center;
-  border-bottom: 1px solid #9394a5;
+  border-bottom: 2px solid #e4e5f1;
   display: flex;
   font-size: 0.9rem;
   height: 50px;
