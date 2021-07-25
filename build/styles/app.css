@@ -1,5 +1,10 @@
+body {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.125rem;
+}
+
 .attribution {
-  font-size: 11px;
+  font-size: 0.6875rem;
   text-align: center;
 }
 
@@ -9,12 +14,13 @@
 
 .container {
   margin: 0 auto;
-  width: 375px;
+  width: 23.4375rem;
 }
 .container h1 {
   display: flex;
   justify-content: space-between;
   margin-top: 5rem;
+  text-transform: uppercase;
 }
 
 .list-footer-desktop {

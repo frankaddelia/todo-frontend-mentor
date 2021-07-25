@@ -22,8 +22,13 @@ $dark-grayish-blue: hsl(234, 11%, 52%);
 $very-darker-grayish-blue: hsl(233, 14%, 35%);
 $very-dark-grayish-blue: hsl(237, 14%, 26%);
 
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.125rem;
+}
+
 .attribution {
-    font-size: 11px;
+    font-size: 0.6875rem;
     text-align: center;
 }
 
@@ -33,12 +38,13 @@ $very-dark-grayish-blue: hsl(237, 14%, 26%);
 
 .container {
     margin: 0 auto;
-    width: 375px;
+    width: 23.4375rem;
 
     h1 {
         display: flex;
         justify-content: space-between;
         margin-top: 5rem;
+        text-transform: uppercase;
     }
 }
 
