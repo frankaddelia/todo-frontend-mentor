@@ -13,7 +13,7 @@ $very-light-gray: hsl(0, 0%, 98%);
 $very-light-grayish-blue: hsl(236, 33%, 92%);
 $light-grayish-blue: hsl(233, 11%, 84%);
 $dark-grayish-blue: hsl(236, 9%, 61%);
-$very-dark-grayish-blue: hsl(235, 19%, 35%);
+$very-dark-grayish-blue-lighter: hsl(235, 19%, 35%);
 
 // Dark Theme
 $very-dark-blue: hsl(235, 21%, 11%);
@@ -41,7 +41,7 @@ body {
 
 .circle {
     background-color: transparent;
-    border: 1px solid $black;
+    border: 0.125rem solid $very-light-grayish-blue;
     border-radius: 50%;
     display: inline-block;
     height: 1.25rem;
@@ -58,7 +58,7 @@ body {
 .container {
     box-sizing: border-box;
     margin: 0 auto;
-    padding: 0 30px;
+    padding: 0 1.875rem;
     width: 23.4375rem;
 
     h1 {
@@ -100,6 +100,8 @@ body {
 .list-group li {
     align-items: center;
     border-bottom: 2px solid $very-light-grayish-blue;
+    background-color: $white;
+    color: $very-dark-grayish-blue-lighter;
     display: flex;
     font-size: 0.9rem;
     height: 50px;
@@ -107,6 +109,10 @@ body {
     margin: 0;
     padding: 0;
     width: 19.6875rem;
+
+    input {
+        border: none;
+    }
 }
 
 // @media screen and (min-width: 375px) {
